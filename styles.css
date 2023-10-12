@@ -1,0 +1,81 @@
+/* Estilos generales */
+
+body {
+    background-image: url('imagen-de-fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #6a1b9a !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+/* Estilo para los botones de navegación */
+.navbar-nav .nav-item .nav-link {
+    border: 1px solid #6a1b9a;
+    background-color: #fff;
+    color: #6a1b9a !important;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #6a1b9a;
+    color: #fff !important;
+}
+/* Estilos de los botones */
+/* Estilo para el botón de guardar (Crear) */
+.btn-primary {
+    background-color: #6a1b9a !important;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #007bff !important;
+    transform: scale(1.1);
+}
+.btn-success:hover,
+.btn-danger:hover {
+    background-color: #6a1b9a !important;
+}
+
+.btn-secondary:hover {
+    background-color: #777 !important;
+}
+
+/* Estilos de los formularios */
+.form-control {
+    border-color: #6a1b9a !important;
+}
+
+/* Estilos del encabezado */
+.bg-secondary {
+    background-color: #6a1b9a !important;
+    color: #fff;
+    font-weight: bold;
+}
+
+
